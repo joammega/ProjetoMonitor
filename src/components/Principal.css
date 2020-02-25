@@ -1,0 +1,36 @@
+.userConteiner{
+    display: flex;
+    width: 95%;
+    height: 90%;
+    border-radius: 5px;
+    background-color: rgb(177, 177, 177);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.301);
+    flex-direction: column;
+    
+}
+.functions{
+    flex: 1;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 3px 3px rgba(128, 128, 128, 0.301)  ;
+    display: flex;
+    align-items: center;
+}
+.users{
+    flex:9;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.botoes{
+    display: flex;
+    width: 50%;
+}
+.search{
+    display: flex;
+    width: 50%;
+}
+.flex{
+    display: flex;
+    flex: 3;
+}

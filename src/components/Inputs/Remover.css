@@ -1,0 +1,28 @@
+.remover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h2{
+    height: 20%;
+}
+.submit{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+.input{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+.pAlert{
+    color: red;
+    font-size: 10px;
+}

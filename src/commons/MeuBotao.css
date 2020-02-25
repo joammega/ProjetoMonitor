@@ -1,0 +1,22 @@
+.botao{
+    flex: 1;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.botao:hover{
+    filter: brightness(80%);
+}
+.botao:active{
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 8px gray   ;
+}
+.botao:focus{
+    outline: none;
+}

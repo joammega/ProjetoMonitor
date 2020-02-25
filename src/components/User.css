@@ -1,0 +1,55 @@
+.userConteiner{
+    display: flex;
+    width: 95%;
+    height: 90%;
+    border-radius: 5px;
+    background-color: rgb(177, 177, 177);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.301);
+    flex-direction: column;
+    
+}
+.profile{
+    display: flex;
+    flex: 3;
+    background-color: rgb(201, 201, 201);
+    border-bottom: 1px solid gray;
+}
+.snaps{
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.imgCard{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.imgCard img{
+    width: 100%;
+    height: 100%;
+}
+.img{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    flex: 7;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+.pConteiner{
+    display: flex;
+}
+.pConteiner p{
+    margin-left: 20px;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+
+}

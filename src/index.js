@@ -1,0 +1,38 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import * as serviceWorker from './serviceWorker';
+import Login from './components/Login'
+import Principal from './components/Principal'
+import User from './components/User'
+import firebaseConfig from './key'
+import firebase from 'firebase/app'
+
+
+if (!firebase.apps.length) {
+    firebase.initializeApp(
+      firebaseConfig
+    );
+  }
+ReactDOM.render(
+    <BrowserRouter >
+        <div className="conteiner">
+            <Switch>
+                <Route exact path="/" component={Login} />
+                <Route path="/m/:id" component={Principal} />
+                
+                <Route path="/u/:id" component={User} />
+            </Switch>
+        </div>
+
+    </BrowserRouter>
+
+
+    , document.getElementById('root'));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

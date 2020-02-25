@@ -1,0 +1,25 @@
+.linkConteiner{
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    flex: 1;
+   
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.301);
+    margin: 5px;
+    
+}
+.link:hover{
+    background-color: rgb(212, 212, 212);
+}
+.link:active{
+    background-color: rgb(145, 145, 145);
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.301);
+    transform: translate(3px,3px);
+}
